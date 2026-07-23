@@ -7,8 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      #navbar {
+      /* #navbar {
         background: linear-gradient(to right, #2d28b8, #b8095d);
+      } */
+      #navbar{
+
+      /* background: linear-gradient(to right, #1CB5E0 0%, #000851 100%); */
+     background:  linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
       }
       p {
         font-family: monospace;
@@ -25,6 +30,7 @@
       }
     </style>
     <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
   </head>
   <body>
     <nav
@@ -39,8 +45,9 @@
           data-bs-target="#navitems"
           aria-controls="navitems"
           aria-label="Navigation Toggler"
+          aria-expanded="false"
         >
-          <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars"></i>
         </button>
         <div id="navitems" class="collapse navbar-collapse">
           <!-- learned the target should be the container not the ul itself -->
