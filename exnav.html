@@ -6,18 +6,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <script defer src="js/bootstrap.bundle.js"></script>
+    <style>
+      #navbar {
+        background: linear-gradient(to right, rgb(24, 77, 4), rgb(4, 59, 21));
+      }
+    </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light  bg-danger ">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
       <div class="container">
-        <h2 class="navbar-brand">Nav three</h2>
+        <h2 class="navbar-brand">Exnav</h2>
         <button
           class="navbar-toggler float-end"
           data-bs-toggle="collapse"
           data-bs-target="#navitems"
           aria-controls="#navitems"
           aria-label="toggle navigation"
-          class="navbar-toggler"
           aria-expanded="false"
         >
           <span class="navbar-toggler-icon"></span>
