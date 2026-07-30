@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+      #navbar {
+        background: linear-gradient(to right, #bd0000, #570619);
+      }
+      #navbarbrand {
+        color: rgb(216, 231, 241);
+        font-weight: bold;
+      }
+      #navlink {
+        font-weight: bold;
+        color: rgb(216, 231, 241);
+      }
+    </style>
+  </head>
+  <body>
+    <nav id="navbar" class="navbar navbar-expand-ld navbar-light">
+      <div class="container">
+        <h2 id="navbarbrand" class="navbar-brand">Hello</h2>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navitems"
+          aria-controls="navbar"
+          aria-label="navigation toggle"
+        >
+          <span class="navbar-toggler-button"></span>
+        </button>
+        <div id="navitems" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a id="nav-link" href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-link" href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-link" href="#products" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-link" href="#contact" class="nav-link">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container"></div>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
