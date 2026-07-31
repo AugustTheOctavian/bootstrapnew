@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <style>
       #navbar {
-        background: linear-gradient(to right, #bd0000, #570619);
+        background: linear-gradient(to right, #3251DB,#00FFE5,#32B3A6 );
       }
       #navbarbrand {
         color: rgb(216, 231, 241);
         font-weight: bold;
       }
-      #navlink {
+      #nav-link {
         font-weight: bold;
         color: rgb(216, 231, 241);
       }
     </style>
   </head>
   <body>
-    <nav id="navbar" class="navbar navbar-expand-ld navbar-light">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
       <div class="container">
         <h2 id="navbarbrand" class="navbar-brand">Hello</h2>
+
         <button
           class="navbar-toggler"
           data-bs-toggle="collapse"
@@ -30,10 +31,12 @@
           aria-controls="navbar"
           aria-label="navigation toggle"
         >
-          <span class="navbar-toggler-button"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div id="navitems" class="collapse navbar-collapse">
-          <ul class="navbar-nav ms-auto">
+      </div>
+      <div id="navitems" class="collapse navbar-collapse">
+        <div class="container">
+          <ul class="navbar-nav float-end ms-auto">
             <li class="nav-item">
               <a id="nav-link" href="#home" class="nav-link">Home</a>
             </li>
