@@ -1,0 +1,21 @@
+#ribbon{
+  display: block;
+}
+ .ribbon-nav {
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+   justify-content: center;
+   background: linear-gradient(90deg, #b8860b 0%, #ffd900c9 100%);
+   padding: 1vh;
+ }
+
+ .ribbon-link {
+   color: rgba(0, 0, 0, 0.664);
+   text-decoration: none;
+
+
+ }
+ .ribbon-link:hover{
+   color: rgb(168, 1, 43);
+ }

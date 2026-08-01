@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <style>
+    body {
+      background-color: rgb(206, 206, 206);
+    }
+
+    #navbar {
+      /* background: linear-gradient(-45deg, #2c3539 0%, #8c92ac 100%); */
+      background-color: rgb(206, 206, 206);
+    }
+
+    #ribbon {
+      display: flex;
+    }
+
+    .ribbon-nav {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      justify-content: center;
+      padding: 0.2rem;
+      background: linear-gradient(90deg, #b8860b 0%, #ffd900c9 100%);
+    }
+
+    .ribbon-nav a {
+      color: rgba(0, 0, 0, 0.76);
+      text-decoration: none;
+      font-family: sans-serif;
+      padding: 0.5rem 0;
+      transition: color 0.2s;
+    }
+
+    .ribbon-nav a:hover {
+      /* color: #d30101d5; */
+      font-weight: bold;
+    }
+
+    .navbar-brand {
+      height: 3em;
+    }
+  </style>
+</head>
+
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light text-dark sticky-top">
+    <div class="container">
+      <img src="lalithaa_logo-BrwDmJti.svg" alt="" class="navbar-brand">
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navitems" aria-label="navigation toggle"
+        aria-controls="navitems">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navitems" class="collapse navbar-collapse float-end ms-auto">
+        <ul class="navbar-nav float-end ms-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="#product" class="nav-link">product & services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navigation ends here -->
+
+  <!-- ribbon -->
+  <!-- <section id="ribbon" class="navbar navbar-expand">
+      <ul class="nav-item">
+        <li class="nav-link">
+          <a href="#ring">rings</a>
+        </li>
+        <li class="nav-link">
+          <a href="#necklace">necklace</a>
+        </li>
+        <li class="nav-link">
+          <a href="#chain">chain</a>
+        </li>
+        <li class="nav-link">
+          <a href="#men">men</a>
+        </li>
+        <li class="nav-link">
+          <a href="#women">women</a>
+        </li>
+        <li class="nav-link">
+          <a href="#children">children</a>
+        </li>
+      </ul>
+    </section> -->
+  <!-- ribbon navigation -->
+  <nav class="ribbon-nav">
+    <a href="#men">men</a>
+    <a href="#women">women</a>
+    <a href="#children">children</a>
+    <a href="#necklace">necklace</a>
+    <a href="#earring">earrings</a>
+    <a href="#rings">ring</a>
+  </nav>
+  <div class="container"></div>
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
