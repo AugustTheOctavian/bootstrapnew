@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description">
+
+  <title>my web</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    #topnav{
+      background-color: rgb(230, 227, 191);
+    }
+    #homeimg{
+      height: 1em;
+    }
+
+    .ribbon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      width: auto;
+      margin: auto;
+      padding: 0.4em;
+      overflow-x: auto;
+      scrollbar-width: none;
+      scroll-behavior: smooth;
+      background-color: skyblue;
+
+    }
+@media(max-width: 768px)
+    {
+      .ribbon{
+        justify-content: flex-start;
+      }
+    }
+    .ribbon a {
+      text-decoration: none;
+      color: black;
+      font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    .ribbon a:hover {
+      color: black;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <nav id="topnav" class="navbar navbar-expand-lg navbar-light">
+
+    <button data-bs-toggle="collapse" data-bs-target="#navcollapse" aria-label="navigation toggler"
+      aria-controls="navcollapse" class="navbar-toggler  ms-auto">
+      <span class="navbar-toggler-icon">
+
+      </span>
+    </button>
+    <div id="navcollapse" class="collapse navbar-collapse float-end ms-auto">
+
+      <ul   class="navbar-nav float-end ms-auto" style="margin-right: 4em;">
+        <li class="nav-item">
+          <a href="#home" class="nav-link">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#home" class="nav-link">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#home" class="nav-link">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#home" class="nav-link">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#home" class="nav-link">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#home" class="nav-link">home</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <nav class="ribbon">
+    <a href="home.html">
+
+      <img src="home.png" id="homeimg" alt="">
+    </a>
+    <a href="#home">home1</a>
+    <a href="#home">home</a>
+    <a href="#home">home</a>
+    <a href="#home">home</a>
+    <a href="#home">home</a>
+    <a href="#home">home</a>
+    <a href="#home">home</a>
+    <a href="#home">home</a>
+    <a href="#home">home</a>
+    <a href="#home">home</a>
+  </nav>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

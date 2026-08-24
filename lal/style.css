@@ -1,0 +1,33 @@
+.navbar{
+  background-color: beige;
+  display: flex;
+}
+#navbar-brand{
+
+ height: 5rem; 
+ margin-left: 50px;
+
+}
+#hamburger{
+  height: 2rem;
+  margin-left: auto;
+}
+.ribbon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  scrollbar-width: none;
+  gap:2em;
+  scroll-behavior: smooth;
+  overflow-x: auto;
+  
+  background:linear-gradient(to right, rgb(31, 192, 17), rgb(14, 219, 185)) ;
+  padding: 0.43em;
+
+}
+.ribbon-link{
+  color: rgb(56, 56, 56);
+  text-decoration: none;
+
+}
